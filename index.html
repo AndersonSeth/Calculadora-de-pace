@@ -8,8 +8,13 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Calculadora de Pace
-        Canal Foco no KM</h1>
+    <header>
+        <nav class="navigation"> <!-- Área de navegação -->
+        <a button onclick="window.location.href= window.location.href">Home</a>
+        <a href="https://www.youtube.com/@FocoNokm" target="_self">Acesse o canal no youtube</a>
+    </header>
+
+    <h1>Calculadora de Pace do Canal Foco no KM</h1>
     <div id="calculator">
         <label for="distance">Distância (em km):</label>
         <input type="text" id="distance" placeholder="Digite a distância">
@@ -17,6 +22,9 @@
         <input type="text" id="time" placeholder="Digite o tempo">
         <button onclick="calculatePace()">Calcular</button>
         <div id="result"></div>
+    </div>
+    <div id="background">
+        <img src="../imagens/cy.png" width="1000" /> 
     </div>
     <script src="script.js"></script>
 </body>
