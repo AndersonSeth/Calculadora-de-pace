@@ -35,7 +35,28 @@ button {
     font-weight: bold;
 }
 
-header{
-    margin-top: 30px;
-
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 10px;
 }
+
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px;
+  border-radius: 150px;
+  transition: background-color 0.3s ease;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.navigation a:hover {
+  background-color: #0f0;
+  color: #000;
+}
+
+
